@@ -12,7 +12,9 @@ html {
 body {
     font-size: 1.6rem;
     background-color: #08023b;
-    padding: 5rem;
+    padding: 5vw;
+    max-width: 1200px;
+    margin-inline: auto;
     text-align: center;
 }
 
@@ -75,7 +77,8 @@ main {
 }
 
 main > section {
-    width: 27vw;
+    flex: 1 0 0;
+    max-width: 30rem;
     min-width: min-content;
     padding: 2rem;
     display: flex;
@@ -126,11 +129,11 @@ main > section:last-child > hr {
 }
 
 main .face-icon-container {
-    background-color: #f3b2b2;
+    background-color: #f3b2b299;
 }
 
 main .check-icon-container {
-    background-color: #b2f3b8;
+    background-color: #b2f3b899;
 }
 
 main .card-icon-container {
