@@ -109,11 +109,11 @@ main .icon-container {
 }
 
 main .icon-container > img {
-  transition: scale 0.3s;
+  transition: all 0.3s;
 }
 
 main section:hover .icon-container > img {
-  scale: 1.3;
+  transform: scale(1.3);
 }
 
 main > section > hr {
