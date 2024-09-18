@@ -60,6 +60,11 @@ body {
   box-shadow: 0 1rem 1rem #aaaaaa77;
 }
 
+.btn:active {
+  top: .1rem;
+  box-shadow: none;
+}
+
 .header__btn--quote {
   color: #fff;
   background-color: #00ffff;
